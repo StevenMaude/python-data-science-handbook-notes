@@ -59,7 +59,7 @@ Ctrl-l: Clear terminal screen.
 
 Ctrl-c: Interrupt Python command.
 
-Ctrl-d: Exit iPython.
+Ctrl-d: Exit IPython.
 
 ## Magic functions
 
