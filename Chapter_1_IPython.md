@@ -3,6 +3,7 @@
 ## General help
 
 `thing?` shows docstring of `thing`.
+
 `thing??` shows source of `thing` (unless in some compiled language,
 e.g. C extensions).
 
@@ -10,7 +11,7 @@ e.g. C extensions).
 
 ### Of object attributes and methods
 
-`obj.<TAB>` or `obj._<TAB>` for internal attributes/methods
+`obj.<TAB>` or `obj._<TAB>` for internal attributes/methods.
 
 ## Wildcard matching
 
@@ -25,28 +26,39 @@ e.g. C extensions).
 ### Navigation
 
 Ctrl-a: Move cursor to beginning of line.
+
 Ctrl-e: Move cursor to end of line.
+
 Ctrl-b (or left arrow): Move cursor back one character.
+
 Ctrl-f (or right arrow): Move cursor forward one character.
 
 ### Text entry
 
 Ctrl-d: Delete next character in line.
+
 Ctrl-k: Cut text from cursor to end of line.
+
 Ctrl-u: Cut text from beginning of line to cursor.
+
 Ctrl-y: Yank (paste) text that was cut.
+
 Ctrl-t: Transpose previous two characters.
 
 ### Command history
 
 Ctrl-p (or up arrow): Access previous command in history.
+
 Ctrl-n (or down arrow): Access next command in history.
+
 Ctrl-r: Reverse search through history.
 
 ### Miscellaneous
 
 Ctrl-l: Clear terminal screen.
+
 Ctrl-c: Interrupt Python command.
+
 Ctrl-d: Exit iPython.
 
 ## Magic functions
@@ -92,6 +104,7 @@ to execute.
 ### In and Out
 
 `In` is a list of commands.
+
 `Out` is a dictionary that maps input numbers to any outputs.
 
 Can use these to reuse commands or outputs, useful if an output takes a
@@ -103,7 +116,9 @@ returns None).**
 ### Underscore shortcuts
 
 `_` access last output (also works in standard Python shell).
+
 `__`access penultimate output.
+
 `___` access propenultimate output.
 
 `_X` is a shortcut for `Out[X]`.
@@ -118,7 +133,9 @@ Doesn't display and doesn't get added to `Out`.
 ### Related magic commands
 
 `%history -n 1-4`: print first four inputs.
+
 `%rerun`: rerun some portion of command history.
+
 `%save`: save some portion of command history to file.
 
 ## IPython and the system command shell
@@ -161,7 +178,9 @@ without `%` if `automagic` is enabled.
 x is for *exception*. Changes reporting:
 
 `%xmode Plain` (less information)
+
 `%xmode Context` (default)
+
 `%xmode Verbose` (more information, displays arguments to functions)
 
 ### Debugging: `ipdb`
@@ -179,16 +198,24 @@ and explore variables there.
 #### Debugger commands
 
 `list`          Show current location in file.
+
 `h(elp)`        Show list of commands, or get help on current command.
+
 `q(uit)`        Quit debugger and program.
+
 `c(ontinue)`    Quit debugger, continue program.
+
 `n(ext)`        Continue until next line in current function is reached
                 or it returns; called functions are executed without
                 stopping.
+
 `<ENTER>`       Repeat previous command.
+
 `p(rint)`       Print variables.
+
 `s(tep)`        Continue, but stop as soon as possible (whether in a
                 called function or in current function).
+
 `r(eturn)`      Continue until function returns.
 
 ### Stepping through code
