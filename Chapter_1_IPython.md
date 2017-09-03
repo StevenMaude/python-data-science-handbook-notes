@@ -197,7 +197,8 @@ and explore variables there.
 
 ### Stepping through code
 
-`%run -d` your script, and then use `next` to move through lines of code.
+`%run -d` your script, and then use `next` to move through lines of
+code.
 
 ## Profiling and timing code
 
@@ -233,7 +234,8 @@ then:
 
 `%lprun -f <function>`
 
-to profile the code. Shows you specific lines and how long the program spends completing them.
+to profile the code. Shows you specific lines and how long the program
+spends completing them.
 
 ### Memory usage: `%memit` and `%mprun`
 
@@ -255,4 +257,5 @@ or:
 
 to profile the code.
 
-`%mprun` requires a function in a file, but can use `%%file <filename>` to create a new file with content. 
+`%mprun` requires a function in a file, but can use `%%file <filename>`
+to create a new file with content.
