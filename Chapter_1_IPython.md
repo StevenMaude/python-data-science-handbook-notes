@@ -25,41 +25,30 @@ e.g. C extensions).
 
 ### Navigation
 
-Ctrl-a: Move cursor to beginning of line.
-
-Ctrl-e: Move cursor to end of line.
-
-Ctrl-b (or left arrow): Move cursor back one character.
-
-Ctrl-f (or right arrow): Move cursor forward one character.
+Ctrl-a: Move cursor to beginning of line.  
+Ctrl-e: Move cursor to end of line.  
+Ctrl-b (or left arrow): Move cursor back one character.  
+Ctrl-f (or right arrow): Move cursor forward one character.  
 
 ### Text entry
 
-Ctrl-d: Delete next character in line.
-
-Ctrl-k: Cut text from cursor to end of line.
-
-Ctrl-u: Cut text from beginning of line to cursor.
-
-Ctrl-y: Yank (paste) text that was cut.
-
-Ctrl-t: Transpose previous two characters.
+Ctrl-d: Delete next character in line.  
+Ctrl-k: Cut text from cursor to end of line.  
+Ctrl-u: Cut text from beginning of line to cursor.  
+Ctrl-y: Yank (paste) text that was cut.  
+Ctrl-t: Transpose previous two characters.  
 
 ### Command history
 
-Ctrl-p (or up arrow): Access previous command in history.
-
-Ctrl-n (or down arrow): Access next command in history.
-
-Ctrl-r: Reverse search through history.
+Ctrl-p (or up arrow): Access previous command in history.  
+Ctrl-n (or down arrow): Access next command in history.  
+Ctrl-r: Reverse search through history.  
 
 ### Miscellaneous
 
-Ctrl-l: Clear terminal screen.
-
-Ctrl-c: Interrupt Python command.
-
-Ctrl-d: Exit IPython.
+Ctrl-l: Clear terminal screen.   
+Ctrl-c: Interrupt Python command.  
+Ctrl-d: Exit IPython.   
 
 ## Magic functions
 
@@ -115,11 +104,9 @@ returns None).**
 
 ### Underscore shortcuts
 
-`_` access last output (also works in standard Python shell).
-
-`__`access penultimate output.
-
-`___` access propenultimate output.
+`_` access last output (also works in standard Python shell).  
+`__`access penultimate output.  
+`___` access propenultimate output.  
 
 `_X` is a shortcut for `Out[X]`.
 
@@ -177,11 +164,9 @@ without `%` if `automagic` is enabled.
 
 x is for *exception*. Changes reporting:
 
-`%xmode Plain` (less information)
-
-`%xmode Context` (default)
-
-`%xmode Verbose` (more information, displays arguments to functions)
+`%xmode Plain` (less information)  
+`%xmode Context` (default)  
+`%xmode Verbose` (more information, displays arguments to functions)  
 
 ### Debugging: `ipdb`
 
@@ -197,26 +182,18 @@ and explore variables there.
 
 #### Debugger commands
 
-`list`          Show current location in file.
-
-`h(elp)`        Show list of commands, or get help on current command.
-
-`q(uit)`        Quit debugger and program.
-
-`c(ontinue)`    Quit debugger, continue program.
-
+`list`          Show current location in file.  
+`h(elp)`        Show list of commands, or get help on current command.  
+`q(uit)`        Quit debugger and program.  
+`c(ontinue)`    Quit debugger, continue program.  
 `n(ext)`        Continue until next line in current function is reached
                 or it returns; called functions are executed without
-                stopping.
-
-`<ENTER>`       Repeat previous command.
-
-`p(rint)`       Print variables.
-
+                stopping.  
+`<ENTER>`       Repeat previous command.  
+`p(rint)`       Print variables.  
 `s(tep)`        Continue, but stop as soon as possible (whether in a
-                called function or in current function).
-
-`r(eturn)`      Continue until function returns.
+                called function or in current function).  
+`r(eturn)`      Continue until function returns.  
 
 ### Stepping through code
 
