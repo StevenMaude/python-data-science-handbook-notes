@@ -13,4 +13,5 @@ Therefore, these notes are made available under the same
 
 ## The chapter notes
 
-[Chapter 1: IPython](Chapter_1_IPython.md)
+[Chapter 1: IPython](Chapter_1_IPython.md)  
+[Chapter 2: NumPy](Chapter_2_NumPy.md)
