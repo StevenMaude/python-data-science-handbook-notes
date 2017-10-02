@@ -464,7 +464,7 @@ along.)
 Number of aggregation functions:
 
 `np.sum()`, `np.prod()`, `np.mean()`, `np.std()`, `np.var()`,
-`np.min()`, `np.max()`, `np.argmin()`, `np.argmax()`, `np.medium()`,
+`np.min()`, `np.max()`, `np.argmin()`, `np.argmax()`, `np.median()`,
 `np.percentile()`
 
 also with alternative `NaN` safe versions that ignore missing values.
