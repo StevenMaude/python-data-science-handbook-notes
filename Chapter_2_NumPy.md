@@ -203,6 +203,9 @@ Change a 1D array to a 3x3 grid:
 ```python
 grid = np.arange(1, 10).reshape((3, 3))
 print(grid)
+[[1 2 3]
+ [4 5 6]
+ [7 8 9]]
 ```
 
 Reshaped array has to have same size as original. May be a view of the
@@ -461,7 +464,7 @@ along.)
 Number of aggregation functions:
 
 `np.sum()`, `np.prod()`, `np.mean()`, `np.std()`, `np.var()`,
-`np.min()`, `np.max()`, `np.argmin()`, `np.argmax()`, `np.medium()`,
+`np.min()`, `np.max()`, `np.argmin()`, `np.argmax()`, `np.median()`,
 `np.percentile()`
 
 also with alternative `NaN` safe versions that ignore missing values.
