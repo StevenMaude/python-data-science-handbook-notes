@@ -16,4 +16,5 @@ Therefore, these notes are made available under the same
 [Chapter 1: IPython](Chapter_1_IPython.md)  
 [Chapter 2: NumPy](Chapter_2_NumPy.md)
 [Chapter 3: pandas](Chapter_3_pandas.md)
+[Chapter 4: Matplotlib](Chapter_4_Matplotlib.md)
 
