@@ -17,7 +17,4 @@ Therefore, these notes are made available under the same
 [Chapter 2: NumPy](Chapter_2_NumPy.md)  
 [Chapter 3: pandas](Chapter_3_pandas.md)  
 [Chapter 4: Matplotlib](Chapter_4_Matplotlib.md)  
-
-NB: there is a Chapter 5 that describes scikit-learn, but that chapter
-looks far more example-driven than the others, and making "static"
-non-notebook notes seems less useful, so consult the original text!
+[Chapter 5: Machine Learning](Chapter_5_Machine_Learning.md)
